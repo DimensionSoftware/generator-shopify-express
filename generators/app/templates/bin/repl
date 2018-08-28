@@ -1,0 +1,5 @@
+#!/bin/sh
+
+node -r ./.repl "$@"
+
+# https://dont-be-a-pig.myshopify.com/admin/oauth/authorize?baseUrl=%2Fshopify%2Fauth&scope=write_orders%2C%20write_products&client_id=71417ac1a803abfa3a62eac1456dd4ab&redirect_uri=https%3A%2F%2Fde9e66a6.ngrok.io%2Fshopify%2Fauth%2Fcallback
