@@ -34,7 +34,7 @@ module.exports = class extends Generator {
       'config',
       'migrations',
       'server',
-      'knexfile.js',
+      'knexfile.js.example',
       'package.json',
       'README.md',
       '.babelrc',

@@ -8,9 +8,9 @@ module.exports = {
     client: 'postgresql',
     connection: {
       host:     process.env.DB_HOST     || 'localhost',
-      database: process.env.DB_NAME     || 'chefs_schedule',
-      user:     process.env.DB_USER     || 'dbap',
-      password: process.env.DB_PASSWORD || 'dbap'
+      database: process.env.DB_NAME     || 'database',
+      user:     process.env.DB_USER     || 'user',
+      password: process.env.DB_PASSWORD || 'password'
     },
     pool: {
       min: 2,
@@ -25,9 +25,9 @@ module.exports = {
     client: 'postgresql',
     connection: {
       host:     process.env.DB_HOST     || 'localhost',
-      database: process.env.DB_NAME     || 'chefs_schedule',
-      user:     process.env.DB_USER     || 'dbap',
-      password: process.env.DB_PASSWORD || 'dbap'
+      database: process.env.DB_NAME     || 'database',
+      user:     process.env.DB_USER     || 'user',
+      password: process.env.DB_PASSWORD || 'password'
     },
     pool: {
       min: 2,

@@ -1,8 +1,8 @@
 {
-  "name": "chefs-schedule",
+  "name": "my-shopify-app",
   "version": "1.0.0",
   "private": true,
-  "description": "a Shopify app for displaying the chef's schedule",
+  "description": "a Shopify app for some special purpose",
   "main": "server/index.js",
   "scripts": {
     "prod": "yarn run clean && yarn run build && cross-env NODE_ENV=production yarn run start",
@@ -16,7 +16,7 @@
   "keywords": [
     "shopify"
   ],
-  "author": "beppu@bao.design",
+  "author": "you@somewhere.com",
   "license": "ISC",
   "engines": {
     "node": ">= 8.1.0"

@@ -7,5 +7,7 @@ Remember to do the following:
   - Edit `.repl.js` to further customize what is preloaded.
 * The `package.json` defines a bunch of scripts, but during dev, I prefer to run it by typing `bin/www.js` myself.
 * This is heavily based on the contents of [shopify-node-app](https://github.com/Shopify/shopify-node-app).
+* SQLStrategy is currently broken for databases that are not SQLite.
+  - Workarounds can be found here: https://github.com/Shopify/shopify-express/issues/58
 
 Enjoy.
