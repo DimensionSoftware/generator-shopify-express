@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-shopify using [npm](http
 
 ```bash
 npm install -g yo
-npm install -g generator-shopify
+npm install -g https://github.com/DimensionSoftware/generator-shopify-express
 ```
 
 Then generate your new project:
 
 ```bash
-yo shopify
+yo shopify-express
 ```
 
 ## Getting To Know Yeoman
