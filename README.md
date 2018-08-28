@@ -6,6 +6,7 @@
 First, install [Yeoman](http://yeoman.io) and generator-shopify using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
+npm install -g bower
 npm install -g yo
 npm install -g https://github.com/DimensionSoftware/generator-shopify-express
 ```
@@ -13,6 +14,7 @@ npm install -g https://github.com/DimensionSoftware/generator-shopify-express
 Then generate your new project:
 
 ```bash
+cd /path/to/new-project-root
 yo shopify-express
 ```
 
@@ -22,6 +24,12 @@ yo shopify-express
  * Yeoman is a person with feelings and opinions, but is very easy to work with.
  * Yeoman can be too opinionated at times but is easily convinced not to be.
  * Feel free to [learn more about Yeoman](http://yeoman.io/).
+
+### TODO
+
+* Remove whatever it is that requires bower.
+* Trim even more fat from [shopify-node-app](https://github.com/Shopify/shopify-node-app) example.
+* Make SQLStrategy work out of the box or replace it with something that will work without hacks.
 
 ## License
 
