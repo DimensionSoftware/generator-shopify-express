@@ -1,4 +1,4 @@
-# generator-shopify [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-shopify-express [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > A generator for Shopify apps
 
 ## Installation
@@ -28,11 +28,11 @@ yo shopify-express
 MIT © [John BEPPU]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-shopify.svg
-[npm-url]: https://npmjs.org/package/generator-shopify
-[travis-image]: https://travis-ci.org/DimensionSoftware/generator-shopify.svg?branch=master
-[travis-url]: https://travis-ci.org/DimensionSoftware/generator-shopify
-[daviddm-image]: https://david-dm.org/DimensionSoftware/generator-shopify.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/DimensionSoftware/generator-shopify
-[coveralls-image]: https://coveralls.io/repos/DimensionSoftware/generator-shopify/badge.svg
-[coveralls-url]: https://coveralls.io/r/DimensionSoftware/generator-shopify
+[npm-image]: https://badge.fury.io/js/generator-shopify-express.svg
+[npm-url]: https://npmjs.org/package/generator-shopify-express
+[travis-image]: https://travis-ci.org/DimensionSoftware/generator-shopify-express.svg?branch=master
+[travis-url]: https://travis-ci.org/DimensionSoftware/generator-shopify-express
+[daviddm-image]: https://david-dm.org/DimensionSoftware/generator-shopify-express.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/DimensionSoftware/generator-shopify-express
+[coveralls-image]: https://coveralls.io/repos/DimensionSoftware/generator-shopify-express/badge.svg
+[coveralls-url]: https://coveralls.io/r/DimensionSoftware/generator-shopify-express
