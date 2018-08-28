@@ -40,7 +40,8 @@ module.exports = class extends Generator {
       '.babelrc',
       '.env.example',
       '.eslintrc',
-      '.gitignore'
+      '.gitignore',
+      '.repl.js'
     ]
     paths.forEach((p) => this.fs.copy(this.templatePath(p), this.destinationPath(p)))
   }
